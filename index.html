@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="RiseX Fitness Gym - Your ultimate fitness destination. Join us for a healthier lifestyle!">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICON ===============-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--=============== FONTS ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>RiseX Fitness Gym</title>
+</head>
+
+<body>
+
+    <!--==================== HERO SECTION ====================-->
+    <section class="hero-page">
+
+        <!--==================== NAVBAR ====================-->
+        <nav>
+            <input type="checkbox" id="check" />
+            <label class="logo">RiseX Fitness</label>
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <ul>
+                <li><a href="index.html" onclick="uncheckCheckbox()">Home</a></li>
+                <li><a href="index.html#about" onclick="uncheckCheckbox()">About</a></li>
+                <li><a href="programs.html" onclick="uncheckCheckbox()">Programs</a></li>
+                <li><a href="index.html#membership" onclick="uncheckCheckbox()">Membership</a></li>
+                <li><a href="index.html#calculate" onclick="uncheckCheckbox()">Calculate</a></li>
+                <li><a href="contact.html" onclick="uncheckCheckbox()">Contact</a></li>
+            </ul>
+
+            <a href="contact.html" class="btn-1 no-visibility" style="margin-right: 60px">
+                Join Us
+            </a>
+        </nav>
+
+        <div class="heropage-content">
+            <div class="heropage-headline">
+                <p style="color : #c93828">TRANSFORM</p>
+                <p>YOUR BODY</p>
+                <span>ELEVATE YOUR LIFE AT RISEX FITNESS</span>
+                <a href="contact.html" class="btn-1" style="margin-top: 31px" color="white">Get Started</a>
+
+                <div class="heropage-contact">
+                    <div>
+                        <i class="fa-solid fa-phone fa-2xl"></i>
+                        <p>1111-1111-1111</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-house fa-2xl"></i>
+                        <p>76 MTR, UP, INDIA</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heropage-img"></div>
+        </div>
+
+        <hr class="divider" style="margin-top: 10px">
+    </section>
+
+    <!--==================== ABOUT SECTION ====================-->
+    <section id="about" class="about-content">
+        <div style="margin-top: 100px">
+            <div class="about-text">
+                <h3>
+                    At <span class="about-accent">RiseX</span>, we're not just a gym
+                </h3>
+                <p>
+                    we're a community dedicated to helping you reach your fitness goals and lead a healthier life. Our
+                    state-of-the-art facilities, experienced trainers, and diverse range of programs are designed to
+                    inspire and support you on every step of your fitness journey.
+                </p>
+            </div>
+            <div class="about-img about-content-img-1"></div>
+        </div>
+
+        <div style="margin-top: 100px">
+            <div class="about-img about-content-img-2"></div>
+            <div class="about-text">
+                <h3>
+                    Our <span class="about-accent">mission</span> is simple yet profound
+                </h3>
+                <p>
+                    to empower you to unlock your full potential and embrace a healthier, more vibrant lifestyle.
+                    Beyond the weights and treadmills, RiseX is a hub of inspiration and transformation.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== PROGRAM SECTION ====================-->
+    <section class="program-content">
+        <h1>Programs</h1>
+        <div>
+            <div class="program-img yoga-img">
+                <div class="black-screen">
+                    <p>YOGA</p>
+                </div>
+            </div>
+            <div class="program-img cardio-img">
+                <div class="black-screen">
+                    <p>CARDIO</p>
+                </div>
+            </div>
+            <div class="program-img strength-img">
+                <div class="black-screen">
+                    <p>STRENGTH</p>
+                </div>
+            </div>
+        </div>
+        <a href="programs.html" class="btn-1">View All</a>
+    </section>
+
+
+    <!--==================== FACILITIES SECTION ====================-->
+    <<section id="facilities" class="facilities">
+        <h1>FACILITIES</h1>
+        <div class="facility-areas">
+            <div class="facility-area">
+                <div class="area-images">
+                    <div class="area-image cardio-1"></div>
+                    <div class="area-image cardio-2"></div>
+                </div>
+                <h3>Cardio Area</h3>
+                <p>
+                    featuring a range of premium treadmills, elliptical machines, and stationary bikes designed to
+                    enhance endurance and elevate your overall cardiovascular health.
+                </p>
+            </div> I
+
+            <div class="facility-area">
+                <div class="area-images">
+                    <div class="area-image strength-1"></div>
+                    <div class="area-image strength-2"></div>
+                </div>
+                <h3>Strength Area</h3>
+                <p>
+                    curated with an array of top-tier weight machines and free weights,
+                    empowering you to sculpt and fortify your physique with precision and control.
+                </p>
+            </div> I
+        </div>
+
+        <div class="facility-areas" style="margin-top: 40px">
+            <div class="facility-area">
+                <div class="area-images">
+                    <div class="area-image ftz-1"></div>
+                    <div class="area-image ftz-2"></div>
+                </div>
+                <h3>Functional Training Zone</h3>
+                <p>
+                    Ignite your functional fitness potential in our specialized zone
+                    equipped with kettlebells, battle ropes, and stability balls,
+                    Fostering strength, agility, and core stability.
+                </p>
+            </div> I
+
+            <div class="facility-area">
+                <div class="area-images">
+                    <div class="area-image mind-1"></div>
+                    <div class="area-image mind-2"></div>
+                </div>
+                <h3>Mind-Body Studio</h3>
+                <p>
+                    Calm your mind and invigorate your body in our Mind Body Studio,
+                    offering yoga and meditation sessions in a serene environment
+                    designed for holistic well-being.
+                </p>
+            </div> I
+        </div>
+
+        <a href="contact.html" class="btn-1" style="margin-top: 31px">Join Us</a>
+        <hr class="divider" style="margin-top: 200px; align-self: normal" />
+
+        </section>
+
+
+        <!--==================== MEMBERSHIP SECTION ====================-->
+        <section id="membership" class="membership">
+            <div>
+                <h1 class="membership-title">MEMBERSHIP</h1>
+                <h3 class="membership-subtitle">PRICING PLAN</h3>
+                <p class="unlock">
+                    Unlock Your Potential: Affordable Fitness, Tailored for You.
+                </p>
+
+                <div class="membership-box">
+                    <div class="membership-price">
+                        <span>$5</span>
+                        <p>Daily</p>
+                    </div>
+                    <p>
+                        ✔ Unlimited access to all fitness areas in 24 hours.
+                        (Everything included in monthly.)
+                    </p>
+                </div>
+
+                <div class="membership-box">
+                    <div class="membership-price">
+                        <span>$199</span>
+                        <p>Yearly</p>
+                    </div>
+                    <p>
+                        ✔ Unlimited access to all fitness areas in 1 year.
+                        (Everything included in monthly.)
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div class="monthly-box">
+                    <div class="monthly-box-adjust">
+                        <div class="membership-price" style="margin-bottom: 30px;">
+                            <span>$20</span>
+                            <p>Monthly</p>
+                        </div>
+                        <p>✔ Unlimited access to all fitness areas.</p>
+                        <p>✓ Personalized workout plan.</p>
+                        <p>✓ Access to group fitness classes.</p>
+                        <p>✓ Guest passes for friends and family.</p>
+                        <p>✓ 1-on-1 personal training session.</p>
+
+                        <div class="join-monthly">
+                            <a href="contact.html" class="btn-1" style="margin-top: 40px;">Join Us</a>
+                            <p>(Best plan)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="membership-box schedule-box" style="align-items: center">
+                    <h4 style="margin-bottom: 10px">Weekly Schedule</h4>
+                    <p style="margin-bottom: 10px;">
+                        • Monday to Friday: 5 AM - 10 PM
+                    </p>
+                    <p> • Saturday to Sunday: 6AM - 9PM</p>
+                    <a href="schedules.html" class="btn-1" style="margin-top: 10px;">View All</a>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!--==================== CALCULATE SECTION ====================-->
+        <section id="calculate" class="calculate">
+            <div class="calculate-container">
+                <div class="calculate-content">
+                    <div class="section-titles">
+                        <h1 class="section-title-border">CALCULATE</h1>
+                        <h1 class="section-title">YOUR BMI</h1>
+                    </div>
+
+                    <p class="calculate-description">
+                        Body Mass Index (BMI) is a simple calculation using a person's height and weight.
+                    </p>
+
+                    <form action="" class="calculate-form" id="calculate-form">
+                        <div class="calculate-box">
+                            <input type="number" placeholder="Height" class="calculate-input" id="calculate-cm" />
+                            <label for="" class="calculate-label">cm</label>
+                        </div>
+
+                        <div class="calculate-box">
+                            <input type="number" placeholder="Weight" class="calculate-input" id="calculate-kg" />
+                            <label for="" class="calculate-label">kg</label>
+                        </div>
+
+                        <button type="submit" class="button button-flex">
+                            Calculate Now <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </form>
+
+                    <p class="calculate-message" id="calculate-message"></p>
+                </div>
+
+                <img src="img/calculate-img.png" alt="calculate image" class="calculate-img">
+            </div>
+
+            <hr class="divider" style="margin-top: 200px; align-self: normal" />
+        </section>
+
+        <!--==================== TRAINERS SECTION ====================-->
+        <section class="trainers">
+            <h1>TRAINERS</h1>
+
+            <div class="trainer">
+                <div class="trainer-img trainer-1"></div>
+                <div class="trainer-info">
+                    <h2 class="trainer-name">Sarah Anderson</h2>
+                    <p class="trainer-stat">Experience of 8 Years</p>
+                    <hr class="trainer-divider" />
+                    <p class="trainer-stat">Experience of Strength Training</p>
+                    <hr class="trainer-divider" />
+                    <p class="trainer-stat">Personal Trainer</p>
+                    <hr class="trainer-divider" />
+                    <p class="trainer-stat">Winner of Regional Fitness Challenge</p>
+                    <hr class="trainer-divider" />
+                </div>
+            </div>
+
+            <div class="trainer">
+                <div class="trainer-info">
+                    <h2 class="trainer-name">David Rodriguez</h2>
+                    <p class="trainer-stat">Experience of 10 Years</p>
+                    <hr class="trainer-divider" />
+                    <p class="trainer-stat">Experience of Cardio Training</p>
+                    <hr class="trainer-divider" />
+                    <p class="trainer-stat">Fitness Intsructor</p>
+                    <hr class="trainer-divider" />
+                    <p class="trainer-stat">Published Author on Health and Wellness</p>
+                    <hr class="trainer-divider" />
+                </div>
+                <div class="trainer-img trainer-2"></div>
+            </div>
+
+            <div class="trainer">
+                <div class="trainer-img trainer-3"></div>
+                <div class="trainer-info">
+                    <h2 class="trainer-name">Emily Harper</h2>
+                    <p class="trainer-stat">Experience of 6 Years</p>
+                    <hr class="trainer-divider" />
+                    <p class="trainer-stat">Experience of Nutrition Counseling</p>
+                    <hr class="trainer-divider" />
+                    <p class="trainer-stat">Registered Dietition</p>
+                    <hr class="trainer-divider" />
+                    <p class="trainer-stat">Featured in Health and Fitness Magazines</p>
+                    <hr class="trainer-divider" />
+                </div>
+            </div>
+
+            <a href="schedules.html" class="btn-1" style="margin-top: 10px;">Learn More</a>
+
+            <div class="testimonials">
+
+                <div class="testimony" style="background-color:#c93829">
+                    <p>
+                        "Joining RiseX Gym was a game-changer for me. The trainers are amazing,
+                        and the variety of classes keeps me motivated.
+                        I've never been in better shape!"
+                    </p>
+                    <span>- Lisa M.</span>
+                </div>
+
+                <div class="testimony" style="background-color:#cc6023">
+                    <p>
+                        "The atmosphere at RiseX is so positive and encouraging. The trainers push you to your limits,
+                        and the results are worth every drop of sweat!"
+                    </p>
+                    <span>- Alex R.</span>
+                </div>
+
+                <div class="testimony" style="background-color:#c93b28">
+                    <p>
+                        "I appreciate the personalized attention from the trainers. They truly care about your progress
+                        and well-being. RiseX is more than a gym; it's a supportive community."
+                    </p>
+                    <span>- Mark D.</span>
+                </div>
+
+            </div>
+
+            <div class="callout">
+                <h1>READY TO GET YOUR DREAM BODY?</h1>
+                <a href="schedules.html" class="btn-1" style="margin-top: 10px;">Join Now</a>
+            </div>
+
+        </section>
+
+        <hr class="divider">
+
+
+        <!--==================== FOOTER PART ====================-->
+        <div class="footer">
+
+            <div class="top-footer">
+                <div class="footer-logo">
+                    <p>RISEX GYM</p>
+                    <span>UNLOCK YOUR MAX POTENTIAL</span>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-link">
+                        <a href="index.html">Home</a>
+                        <a href="index.html#facilities">Facilities</a>
+                        <a href="index.html#membership">Membership</a>
+                    </div>
+
+                    <div class="footer-link">
+                        <a href="programs.html">Programs</a>
+                        <a href="schedules.html">Schedules</a>
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bottom-footer">
+                <div class="social-links">
+                    <div class="logo-circle">
+                        <a href="https://www.facebook.com/RiseXFitness" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-facebook-f fa-lg"></i>
+                        </a>
+                    </div>
+
+                    <div class="logo-circle">
+                        <a href="https://twitter.com/RiseXFitness" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-x-twitter fa-lg"></i>
+                        </a>
+                    </div>
+
+                    <div class="logo-circle">
+                        <a href="https://plus.google.com/+RiseXFitness" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-google-plus-g fa-lg"></i>
+                        </a>
+                    </div>
+
+                    <div class="logo-circle">
+                        <a href="https://www.instagram.com/RiseXFitness" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-instagram fa-lg"></i>
+                        </a>
+                    </div>
+
+                    <div class="logo-circle">
+                        <a href="https://www.youtube.com/@RiseXFitness" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-youtube fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+                <p>&copy; Copyright All rights reserved</p>
+            </div>
+
+        </div>
+
+        <!-- Script For Navbar -->
+
+        <script>
+            function uncheckCheckbox() {
+                document.getElementById("check").checked = false;
+            }
+        </script>
+
+        <!-- Main Js -->
+        <script src="main.js"></script>
+
+</body>
+
+</html>
