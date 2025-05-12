@@ -35,24 +35,25 @@
 
         <!--==================== NAVBAR ====================-->
         <nav>
-            <input type="checkbox" id="check" />
+            <input type="checkbox" id="sidebar-active" />
             <label class="logo">RiseX Fitness</label>
-            <label for="check" class="checkbtn">
+            <label for="sidebar-active" class="open-sidebar-button">
                 <i class="fas fa-bars"></i>
             </label>
+            <label id="overlay" for="sidebar-active"></label>
 
-            <ul>
-                <li><a href="index.html" onclick="uncheckCheckbox()">Home</a></li>
-                <li><a href="index.html#about" onclick="uncheckCheckbox()">About</a></li>
-                <li><a href="index.html#programs" onclick="uncheckCheckbox()">Programs</a></li>
-                <li><a href="index.html#membership" onclick="uncheckCheckbox()">Membership</a></li>
-                <li><a href="index.html#calculate" onclick="uncheckCheckbox()">Calculate</a></li>
-                <li><a href="contact.html" onclick="uncheckCheckbox()">Contact</a></li>
-            </ul>
+            <div class="links-container">
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <i class="fas fa-times"></i>
+                </label>
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="programs.html">Programs</a>
+                <a href="index.html#membership">Membership</a>
+                <a href="index.html#calculate">Calculate</a>
+                <a href="contact.html" class="btn-1">Join Us</a>
+            </div>
 
-            <a href="contact.html" class="btn-1 no-visibility" style="margin-right: 60px">
-                Join Us
-            </a>
         </nav>
 
         <!--==================== CONTACT PAGE CONTENT ====================-->
@@ -134,6 +135,9 @@
         </div>
 
     </div>
+
+    <!-- Main Js -->
+    <script src="main.js"></script>
 
 </body>
 

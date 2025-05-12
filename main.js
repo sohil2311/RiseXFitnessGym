@@ -1,3 +1,20 @@
+/*=============== NAVBAR JS ===============*/
+const sidebarCheckbox = document.getElementById("sidebar-active");
+const links = document.querySelectorAll(".links-container a");
+
+links.forEach((link) => {
+  link.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+
+    setTimeout(() => {
+      sidebarCheckbox.checked = false;
+    }, 500); 
+  });
+});
+
 /*=============== CALCULATE JS ===============*/
 const calculateForm = document.getElementById("calculate-form"),
   calculateCm = document.getElementById("calculate-cm"),
@@ -85,6 +102,3 @@ const calculateBmi = (e) => {
 };
 
 calculateForm.addEventListener("submit", calculateBmi);
-
-
-
