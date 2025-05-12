@@ -1118,7 +1118,7 @@ hr {
   }
 
   .footer-links a {
-    text-wrap: nowrap;
+    white-space: nowrap;
   }
 
   .program-page-container {
@@ -1200,7 +1200,7 @@ hr {
 
   .about-text p {
     font-size: 16px;
-    text-wrap: wrap;
+    overflow-wrap: break-word;
     width: fit-content;
     padding: 0px 50px 0px;
   }
@@ -1358,7 +1358,7 @@ hr {
 
   .trainer-name {
     font-size: 32px;
-    text-wrap: nowrap;
+    white-space: nowrap;
     text-align: center;
   }
 
@@ -1409,7 +1409,7 @@ hr {
 
   .footer-logo span {
     font-size: 16px;
-    text-wrap: nowrap;
+    white-space: nowrap;
   }
 
   .footer-links {
@@ -1418,7 +1418,7 @@ hr {
   }
 
   .footer-links a {
-    text-wrap: nowrap;
+    white-space: nowrap;
     text-align: center;
   }
 
