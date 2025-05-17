@@ -463,7 +463,7 @@ hr {
 
 .join-monthly {
   display: flex;
-  align-items: end;
+  align-items: baseline;
   gap: 24px;
 }
 
